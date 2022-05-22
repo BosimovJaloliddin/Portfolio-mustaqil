@@ -427,19 +427,17 @@
 }
 .footer-item input{
     height: 50px;
-    width: 350px;
+    width: 100%;
     font-size: 20px;
 }
 .footer-basis__1{
-    flex-basis: 500px;
+    width: 50%;
 }
 .footer-basis__2{
-    flex-basis: 350px;
-    margin-left: 80px;
+    width: 30%;
 }
 .footer-basis__3{
-    flex-basis:200px ;
-    margin-left: 60px;
+    width: 20%;
 }
 .footer-basis__2 p{
     margin-top: 60px;
@@ -480,7 +478,6 @@
     .statisticas-item{
         width: 50%;
         margin: 5px auto;
-        display: block;
     }
     /* Portfolio section */
     .portfolio-images{
@@ -499,9 +496,23 @@
     .pricing-item{
         flex-basis: 45%;
     }
+    /* Footer section */
+    .footer-banner{
+        height: 800px;
+    }
+    .footer-items{
+        flex-wrap: wrap;
+        margin: auto 10px;
+    }
+    .footer-item{
+        margin-bottom: 10px;
+    }
+    .footer-basis__3{
+        padding-top: 10px;
+    }
 }
 
-@media only screen and (max-widtt:767px){
+@media only screen and (max-width:767px){
     /* Main section */
     .main-section{
         flex-wrap: wrap;
@@ -516,4 +527,49 @@
     .about-me>div{
         flex-basis: 100%;
     }
+    /* Services section */
+    .services-item{
+        flex-basis: 100%;
+    }
+    /* Statisticas section */
+    .statisticas-banner{
+        height: 550px;
+    }
+    .statisticas-item{
+        flex-basis: 100%;
+    }
+    /* Portfolio section */
+    .portfolio-image{
+        flex-basis: 100%;
+    }
+    /* Comments section */
+    .comments-items{
+        flex-wrap: wrap;
+    }
+    .comments-item{
+        flex-basis: 100%;
+    }
+    /* Pricing section */
+    .pricing-item{
+        flex-basis: 100%;
+        margin-top: 100px;
+    }
+    /* Blog section */
+    .blog-items{
+        flex-wrap: wrap;
+    }
+    .blog-item{
+        flex-basis: 100%;
+    }
+    /* Pages section */
+    .brends-items{
+        flex-wrap: wrap;
+    }
+    .brends-item{
+        flex-basis: 30%;
+    }
+    .brends-item i{
+        font-size: 80px;
+    }
+    /* Footer section */
 }
