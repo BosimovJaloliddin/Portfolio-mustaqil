@@ -47,6 +47,7 @@
     height: 320px;
     margin-top: 40px;
     margin-left: 40px;
+    box-sizing: border-box;
 }
 .about-me__information{
     width: 50%;
@@ -170,7 +171,7 @@
 }
 .portfolio-image{
     position: relative;
-    margin: 10px 10px;
+    margin: 10px auto;
     text-align: center;
 }
 .portfolio-image img{
@@ -318,6 +319,7 @@
     transform: scale(1.05);
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    z-index: 4;
 }
 .pricing-item:hover h1{
     background: rgb(129,175,253);
@@ -524,12 +526,21 @@
     .main-section>div{
         flex-basis: 100%;
     }
+    .main-image img{
+        width: 100%;
+    }
     /* About-me section */
     .about-me{
         flex-wrap: wrap;
     }
     .about-me>div{
-        flex-basis: 100%;
+        flex-basis: 90%;
+    }
+    .about-me__image img{
+        width: 100%;
+    }
+    .about-me__information{
+        align-items: center;
     }
     /* Services section */
     .services-items{
@@ -551,11 +562,18 @@
         margin: 5px 0;
     }
     /* Portfolio section */
+    .portfolio-items{
+        width: 50%;
+    }
+    .portfolio-item a{
+        font-size: 10px;
+    }
     .portfolio-images{
         flex-wrap: wrap;
     }
     .portfolio-image{
         flex-basis: 100%;
+        align-items: center;
         padding: 0 10px;
     }
     /* Comments section */
@@ -589,7 +607,13 @@
     }
     /* Pages section */
     .brends-banner{
-        height: 200px;
+        height: 300px;
+    }
+    .brends-items{
+        flex-wrap: wrap;
+    }
+    .brends-item{
+        flex-basis: 30%;
     }
     .brends-item i{
         font-size: 60px;
