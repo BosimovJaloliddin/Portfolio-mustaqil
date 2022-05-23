@@ -298,12 +298,12 @@
     border: none;
     margin-bottom: 30px;
     cursor: pointer;
-    width: 240px;
+    width:100%;
     position: absolute;
     visibility: hidden;
     bottom: 0;
+    left:0;
     height: 40px;
-    left: 20px;
 }
 .pricing-button a{
     text-decoration: none;
@@ -331,6 +331,7 @@
 .pricing-item:hover .pricing-button{
     visibility: visible;
     background-color: #fff;
+    text-align: center;
 }
 
 /* Blog section */
@@ -497,9 +498,10 @@
         box-sizing: border-box;
         margin-top: 20px;
     }
-    .pricing-button{
-        left: 80px;
-    }
+    /* Blog section */
+        .blog-item{
+            vertical-align: middle;
+        }
     /* Pages section */
     .brends-banner{
         height: 200px;
@@ -596,9 +598,6 @@
         flex-basis: 100%;
         padding: 0 10px;
         margin-top: 20px;
-    }
-    .pricing-button{
-        left: 120px;
     }
     /* Blog section */
     .blog-items{
