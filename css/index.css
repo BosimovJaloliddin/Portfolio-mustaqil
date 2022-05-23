@@ -262,17 +262,15 @@
 }
 .pricing-items{
     display: flex;
-    background: rgb(249,249,255);
     margin-top:80px;
     position: relative;
 }
 .pricing-item{
     padding: 0 10px;
     position: relative;
-}
-.pricing-item{
     width: 25%;
     text-align: center;
+    background: rgb(249,249,255);
 }
 .pricing-item h1{
     transition: all 0.3s ease 0s;
@@ -465,7 +463,57 @@
 }
 
 @media only screen and (max-width:991px){
-
+    /* Services section */
+    .services-item{
+        flex-basis: 50%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    /* Statisticas section */
+    .statisticas-items{
+        flex-wrap: wrap;
+    }
+    .statisticas-item{
+        flex-basis: 50%;
+        padding: 0 10px;
+        margin-top: 0px;
+        box-sizing: border-box;
+    }
+    /* Portfolio section */
+    .portfolio-image{
+        flex-basis: 45%;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    /* Pricing section */
+    .pricing-items{
+        flex-wrap: wrap;
+    }
+    .pricing-item{
+        flex-basis: 50%;
+        padding: 0 10px;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+    /* Pages section */
+    .brends-banner{
+        height: 200px;
+    }
+    .brends-item i{
+        font-size: 60px;
+    }
+    /* Footer section */
+    .footer-banner{
+        height: 600px;
+    }
+    .footer-items{
+        flex-wrap: wrap;
+    }
+    .footer-item{
+        flex-basis: 50%;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
 }
 
 @media only screen and (max-width:767px) {
@@ -526,6 +574,7 @@
     .pricing-item{
         flex-basis: 100%;
         padding: 0 10px;
+        margin-top: 20px;
     }
     /* Blog section */
     .blog-items{
