@@ -61,6 +61,7 @@ body{
 }
 .header-logo{
     display: inline-block;
+    margin-top: 15px;
 }
 .header-logo img{
     margin-left: 10px;
