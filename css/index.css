@@ -498,10 +498,6 @@
         box-sizing: border-box;
         margin-top: 20px;
     }
-    /* Blog section */
-        .blog-item{
-            vertical-align: middle;
-        }
     /* Pages section */
     .brends-banner{
         height: 200px;
