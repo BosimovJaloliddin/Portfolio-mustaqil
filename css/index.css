@@ -42,15 +42,14 @@
     justify-content: space-between;
     margin-top: 70px;
 }
+.about-me>div{
+    width: 50%;
+}
 .about-me__image img{
-    width: 460px;
+    width: 100%;
     height: 320px;
     margin-top: 40px;
-    margin-left: 40px;
     box-sizing: border-box;
-}
-.about-me__information{
-    width: 50%;
 }
 .about-me__information h6{
     text-transform: uppercase;
@@ -122,7 +121,6 @@
 }
 .statisticas-items{
     display: flex;
-    flex-direction: row;
     justify-content:space-around;
 }
 .statisticas-item{
@@ -159,6 +157,7 @@
     font-weight: 300;
     margin-left: 40px;
     text-transform: uppercase;
+    box-sizing: border-box;
 }
 .portfolio-item a{
     text-decoration: none;
@@ -344,6 +343,7 @@
 }
 .blog-item{
     margin-right: 3%;
+    box-sizing: border-box;
 }
 .blog-item hr{
     opacity: 0.3;
@@ -374,6 +374,7 @@
 .blog-item__meniu p{
     display: inline-block;
     margin-left: 10px;
+    box-sizing: border-box;
 }
 .blog-item__meniu i{
     font-size: 16px;
@@ -382,6 +383,7 @@
 .blog-item__meniu__image{
     display: inline-block;
     margin-right: 10px;
+    box-sizing: border-box;
 }
 .blog-item:hover .blog-item__image img{
     transform: scale(1.1);
@@ -447,6 +449,7 @@
     font-size: 24px;
     margin-left: 12px;
     text-decoration: none;
+    box-sizing: border-box;
 }
 .footer-item h2{
     font-size: 26px;
