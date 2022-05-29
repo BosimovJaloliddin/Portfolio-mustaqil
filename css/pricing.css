@@ -1,0 +1,15 @@
+/* Pricing style */
+.question{
+    margin-top: 100px;
+    text-align: center;
+}
+.question-items{
+    margin-top: 40px;
+}
+.question-item{
+    margin-bottom:20px ;
+    text-align: center;
+    padding: 10px auto;
+    height: 36px;
+    border: 1px solid #fff;
+}
